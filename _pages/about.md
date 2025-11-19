@@ -48,8 +48,8 @@ You can find my publications and citation statistics on my
 # 📝 Selected Publications
 
 <!-- Example featured paper card -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ePrint 2025</div><img src='images/500x300.png' alt="Tetris" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ePrint 2025</div><img src='images/500x300.png' alt="Tetris" width="100%"></div></div>
+<div class='paper-box-text' markdown="1"> -->
 
 **Tetris: Versatile TFHE LUT and Its Application to FHE Instruction Set Architecture**  
 *Ruida Wang, **Jikang Bai**, Xuan Shen, Xianhui Lu, Zhihao Li, Binwu Xiang, Zhiwei Wang, Hongyu Wang, Lutan Zhao, Kunpeng Wang*  
@@ -81,7 +81,7 @@ Tetris proposes a versatile TFHE LUT framework that supports higher-precision ho
 
 ---
 
-# 📖 Education
+# 📖 Educations
 
 - **Ph.D. in Cryptography**, *Institute of Information Engineering, Chinese Academy of Sciences (IIE, CAS)*, Beijing, China  
   *2023 – Present*
