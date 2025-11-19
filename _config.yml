@@ -23,9 +23,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Jikang Bai"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "Researcher in Cryptography and Homomorphic Encryption"
+  bio              : 
   location         : "Beijing, China"
-  employer         : "Chinese Academy of Sciences, Institute of Information Engineering"
+  employer         : "CAS, IIE"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=kAH3Ha8AAAAJ"
   email            : "baijikang@iie.ac.cn"

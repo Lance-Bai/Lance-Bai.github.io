@@ -17,42 +17,82 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+A PhD student in cryptography at the **Institute of Information Engineering, Chinese Academy of Sciences (IIE, CAS)**.  
+Focusing on **fully homomorphic encryption (FHE)**, especially:
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+- TFHE-style **programmable bootstrapping and homomorphic lookup tables (LUT)**  
+- Algebraic and tensor-based **bootstrapping frameworks**  
+- **FHE system / ISA design** and implementation  
+- **Trusted Execution Environments (TEE)** and hybrid **FHE+TEE** architectures
 
+Interested in closing the gap between theoretical FHE constructions and **deployable systems**, through better bootstrapping algorithms, LUT frameworks, and hardware-/compiler-friendly abstractions.  
+
+You can find my publications and citation statistics on my  
+<a href='https://scholar.google.com/citations?user=kAH3Ha8AAAAJ'>Google Scholar profile</a>, and view the current citation count via this badge:  
+<a href='https://scholar.google.com/citations?user=kAH3Ha8AAAAJ'>
+  <img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations">
+</a>
+
+---
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 📝 Publications 
+- *2025.10* &nbsp;🎉 Our work **“FH-TEE: Single Enclave for all Applications”** was presented at **Inscrypt 2025**, exploring hybrid designs that combine trusted execution environments with FHE for practical secure computation.
+- *2025.09* &nbsp;🎉 **“Bootstrapping over Free \\(\mathcal{R}\\)-Module”** appeared on the IACR ePrint Archive, introducing a new accumulator structure that decouples the modulus and ring dimension in TFHE-style bootstrapping.
+- *2025.09* &nbsp;🎉 **“Tetris: Versatile TFHE LUT and Its Application to FHE Instruction Set Architecture”** was posted to IACR ePrint, proposing a general TFHE LUT framework and an FHE-ISA for high-precision homomorphic computation.
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+*(Replace or extend the items above with your real news as needed.)*
+
+---
+
+# 📝 Selected Publications
+
+<!-- Example featured paper card -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ePrint 2025</div><img src='images/500x300.png' alt="Tetris" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+**Tetris: Versatile TFHE LUT and Its Application to FHE Instruction Set Architecture**  
+*Ruida Wang, **Jikang Bai**, Xuan Shen, Xianhui Lu, Zhihao Li, Binwu Xiang, Zhiwei Wang, Hongyu Wang, Lutan Zhao, Kunpeng Wang*  
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+[**Paper (IACR ePrint 2025/1623)**](https://eprint.iacr.org/2025/1623)  
+<span class='show_paper_citations' data='TODO_REPLACE_TETRIS_ID'></span>  
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+Tetris proposes a versatile TFHE LUT framework that supports higher-precision homomorphic instructions and enables the design of an FHE instruction set architecture (FHE-ISA). It integrates GLWE-based LUTs, batched circuit bootstrapping, and parallel evaluation strategies to significantly improve precision and performance.
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+- **Bootstrapping over Free \\(\mathcal{R}\\)-Module**  
+  *Ruida Wang, **Jikang Bai**, Yijian Liu, Xinxuan Zhang, Xianhui Lu, Lutan Zhao, Kunpeng Wang, Rui Hou*  
+  [**Paper (IACR ePrint 2025/1753)**](https://eprint.iacr.org/2025/1753)  
+  <span class='show_paper_citations' data='TODO_REPLACE_FREE_R_MODULE_ID'></span>  
+  <br>
+  This work revisits algebraic accumulator-based bootstrapping and introduces a free \\(\mathcal{R}_N\\)-module structure to decouple modulus \(q\) and polynomial dimension \(N\), achieving asymptotic and concrete improvements in precision, performance, and key size.
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- **FH-TEE: Single Enclave for all Applications**  
+  ***Jikang Bai**, Ruida Wang, Xianhui Lu, Chunling Chen, Kunpeng Wang*  
+  *(Presented at Inscrypt 2025)*  
+  <span class='show_paper_citations' data='TODO_REPLACE_FH_TEE_ID'></span>  
+  <br>
+  FH-TEE studies how to combine trusted execution environments and FHE in a single-enclave architecture, aiming to balance security, performance, and programmability for practical encrypted computing.
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+*(You can add more publications here; for each paper, replace `TODO_REPLACE_*` in `data='...'` with the actual Google Scholar paper ID from `citation_for_view=XXXX`.)*
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+
+---
+
+# 📖 Education
+
+- **Ph.D. in Cryptography**, *Institute of Information Engineering, Chinese Academy of Sciences (IIE, CAS)*, Beijing, China  
+  *2022 – Present*
+
+- **B.Eng. in Internet of Things Engineering**, *Beijing University of Technology (BJUT)*, Beijing, China  
+  *2018 – 2022*
+
+
+
+# 🧪 Research Keywords
+
+**Fully Homomorphic Encryption (FHE)** · **TFHE / FHEW** · **Programmable Bootstrapping** · **Homomorphic LUTs** ·  
+**FHE Instruction Set Architecture (FHE-ISA)** · **Bootstrapping over Algebraic Structures** ·  
+**Trusted Execution Environments (TEE)** · **Secure Computation** · **Privacy-Preserving Systems**
