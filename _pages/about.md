@@ -47,9 +47,18 @@ You can find my publications and citation statistics on my
 
 # 📝 Selected Publications
 
-<!-- Example featured paper card -->
-<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ePrint 2025</div><img src='images/500x300.png' alt="Tetris" width="100%"></div></div>
-<div class='paper-box-text' markdown="1"> -->
+<!-- Featured paper card -->
+<div class='paper-box'>
+  <!-- 如果以后有配图，可以打开这一段 -->
+  <!--
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">ePrint 2025</div>
+      <img src='images/500x300.png' alt="Tetris" width="100%">
+    </div>
+  </div>
+  -->
+  <div class='paper-box-text' markdown="1">
 
 **Tetris: Versatile TFHE LUT and Its Application to FHE Instruction Set Architecture**  
 *Ruida Wang, **Jikang Bai**, Xuan Shen, Xianhui Lu, Zhihao Li, Binwu Xiang, Zhiwei Wang, Hongyu Wang, Lutan Zhao, Kunpeng Wang*  
@@ -58,21 +67,23 @@ You can find my publications and citation statistics on my
 <span class='show_paper_citations' data='TODO_REPLACE_TETRIS_ID'></span>  
 
 Tetris proposes a versatile TFHE LUT framework that supports higher-precision homomorphic instructions and enables the design of an FHE instruction set architecture (FHE-ISA). It integrates GLWE-based LUTs, batched circuit bootstrapping, and parallel evaluation strategies to significantly improve precision and performance.
+  </div>
 </div>
-</div>
+
+---
 
 - **Bootstrapping over Free \\(\mathcal{R}\\)-Module**  
   *Ruida Wang, **Jikang Bai**, Yijian Liu, Xinxuan Zhang, Xianhui Lu, Lutan Zhao, Kunpeng Wang, Rui Hou*  
   [**Paper (IACR ePrint 2025/1753)**](https://eprint.iacr.org/2025/1753)  
   <span class='show_paper_citations' data='TODO_REPLACE_FREE_R_MODULE_ID'></span>  
-  <br>
-  This work revisits algebraic accumulator-based bootstrapping and introduces a free \\(\mathcal{R}_N\\)-module structure to decouple modulus \(q\) and polynomial dimension \(N\), achieving asymptotic and concrete improvements in precision, performance, and key size.
+
+  This work revisits algebraic accumulator-based bootstrapping and introduces a free \\(\mathcal{R}_N\\)-module structure to decouple modulus \\(q\\) and polynomial dimension \\(N\\), achieving asymptotic and concrete improvements in precision, performance, and key size.
 
 - **FH-TEE: Single Enclave for all Applications**  
   ***Jikang Bai**, Ruida Wang, Xianhui Lu, Chunling Chen, Kunpeng Wang*  
   *(Presented at Inscrypt 2025)*  
   <span class='show_paper_citations' data='TODO_REPLACE_FH_TEE_ID'></span>  
-  <br>
+
   FH-TEE studies how to combine trusted execution environments and FHE in a single-enclave architecture, aiming to balance security, performance, and programmability for practical encrypted computing.
 
 <!-- *(You can add more publications here; for each paper, replace `TODO_REPLACE_*` in `data='...'` with the actual Google Scholar paper ID from `citation_for_view=XXXX`.)* -->
