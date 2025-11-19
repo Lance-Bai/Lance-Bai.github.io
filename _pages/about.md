@@ -9,9 +9,9 @@ redirect_from:
 ---
 
 {% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
+{% assign gsDataBaseUrl = "<https://cdn.jsdelivr.net/gh/>" | append: site.repository | append: "@" %}
 {% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
+{% assign gsDataBaseUrl = "<https://raw.githubusercontent.com/>" | append: site.repository | append: "/" %}
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
@@ -75,21 +75,19 @@ Tetris proposes a versatile TFHE LUT framework that supports higher-precision ho
   <br>
   FH-TEE studies how to combine trusted execution environments and FHE in a single-enclave architecture, aiming to balance security, performance, and programmability for practical encrypted computing.
 
-*(You can add more publications here; for each paper, replace `TODO_REPLACE_*` in `data='...'` with the actual Google Scholar paper ID from `citation_for_view=XXXX`.)*
+<!-- *(You can add more publications here; for each paper, replace `TODO_REPLACE_*` in `data='...'` with the actual Google Scholar paper ID from `citation_for_view=XXXX`.)* -->
 
-
+# 🎖 Honors and Awards
 
 ---
 
 # 📖 Education
 
 - **Ph.D. in Cryptography**, *Institute of Information Engineering, Chinese Academy of Sciences (IIE, CAS)*, Beijing, China  
-  *2022 – Present*
+  *2023 – Present*
 
 - **B.Eng. in Internet of Things Engineering**, *Beijing University of Technology (BJUT)*, Beijing, China  
-  *2018 – 2022*
-
-
+  *2019 – 2023*
 
 # 🧪 Research Keywords
 
