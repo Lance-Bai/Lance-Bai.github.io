@@ -41,7 +41,7 @@ You can find my publications and citation statistics on my
 - *2025.09* &nbsp;🎉 **“Bootstrapping over Free \\(\mathcal{R}\\)-Module”** appeared on the IACR ePrint Archive, introducing a new accumulator structure that decouples the modulus and ring dimension in TFHE-style bootstrapping.
 - *2025.09* &nbsp;🎉 **“Tetris: Versatile TFHE LUT and Its Application to FHE Instruction Set Architecture”** was posted to IACR ePrint, proposing a general TFHE LUT framework and an FHE-ISA for high-precision homomorphic computation.
 
-*(Replace or extend the items above with your real news as needed.)*
+<!-- *(Replace or extend the items above with your real news as needed.)* -->
 
 ---
 
