@@ -47,9 +47,9 @@ You can find my publications and citation statistics on my
 
 # 📝 Selected Publications
 
-<!-- Featured paper card -->
+<!-- Tetris -->
 <div class='paper-box'>
-  <!-- 如果以后有配图，可以打开这一段 -->
+  <!-- 有配图时可启用 -->
   <!--
   <div class='paper-box-image'>
     <div>
@@ -70,23 +70,50 @@ Tetris proposes a versatile TFHE LUT framework that supports higher-precision ho
   </div>
 </div>
 
----
+<!-- Free R-module -->
+<div class='paper-box'>
+  <!--
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">ePrint 2025</div>
+      <img src='images/500x300.png' alt="Free R-module" width="100%">
+    </div>
+  </div>
+  -->
+  <div class='paper-box-text' markdown="1">
 
-- **Bootstrapping over Free \\(\mathcal{R}\\)-Module**  
-  *Ruida Wang, **Jikang Bai**, Yijian Liu, Xinxuan Zhang, Xianhui Lu, Lutan Zhao, Kunpeng Wang, Rui Hou*  
-  [**Paper (IACR ePrint 2025/1753)**](https://eprint.iacr.org/2025/1753)  
-  <span class='show_paper_citations' data='TODO_REPLACE_FREE_R_MODULE_ID'></span>  
+**Bootstrapping over Free \\(\mathcal{R}\\)-Module**  
+*Ruida Wang, **Jikang Bai**, Yijian Liu, Xinxuan Zhang, Xianhui Lu, Lutan Zhao, Kunpeng Wang, Rui Hou*  
 
-  This work revisits algebraic accumulator-based bootstrapping and introduces a free \\(\mathcal{R}_N\\)-module structure to decouple modulus \\(q\\) and polynomial dimension \\(N\\), achieving asymptotic and concrete improvements in precision, performance, and key size.
+[**Paper (IACR ePrint 2025/1753)**](https://eprint.iacr.org/2025/1753)  
+<span class='show_paper_citations' data='TODO_REPLACE_FREE_R_MODULE_ID'></span>  
 
-- **FH-TEE: Single Enclave for all Applications**  
-  ***Jikang Bai**, Ruida Wang, Xianhui Lu, Chunling Chen, Kunpeng Wang*  
-  *(Presented at Inscrypt 2025)*  
-  <span class='show_paper_citations' data='TODO_REPLACE_FH_TEE_ID'></span>  
+This work revisits algebraic accumulator-based bootstrapping and introduces a free \\(\mathcal{R}_N\\)-module structure to decouple modulus \\(q\\) and polynomial dimension \\(N\\), achieving asymptotic and concrete improvements in precision, performance, and key size.
+  </div>
+</div>
 
-  FH-TEE studies how to combine trusted execution environments and FHE in a single-enclave architecture, aiming to balance security, performance, and programmability for practical encrypted computing.
+<!-- FH-TEE -->
+<div class='paper-box'>
+  <!--
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">Inscrypt 2025</div>
+      <img src='images/500x300.png' alt="FH-TEE" width="100%">
+    </div>
+  </div>
+  -->
+  <div class='paper-box-text' markdown="1">
 
-<!-- *(You can add more publications here; for each paper, replace `TODO_REPLACE_*` in `data='...'` with the actual Google Scholar paper ID from `citation_for_view=XXXX`.)* -->
+**FH-TEE: Single Enclave for all Applications**  
+***Jikang Bai**, Ruida Wang, Xianhui Lu, Chunling Chen, Kunpeng Wang*  
+
+*Presented at Inscrypt 2025*  
+<span class='show_paper_citations' data='TODO_REPLACE_FH_TEE_ID'></span>  
+
+FH-TEE studies how to combine trusted execution environments and FHE in a single-enclave architecture, aiming to balance security, performance, and programmability for practical encrypted computing.
+  </div>
+</div>
+
 
 # 🎖 Honors and Awards
 
